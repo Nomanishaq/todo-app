@@ -1,0 +1,10 @@
+const backDrop = document.getElementById('backdrop');
+const addMovieModal = document.getElementById('add-modal');
+const startAddMovieButton = document.querySelector('header button');
+const userInputs = addMovieModal.querySelectorAll('input');
+const cancelAddMovieModal = addMovieModal.querySelector('.btn--passive');
+const confrimMovieButton = cancelAddMovieModal.nextElementSibling;
+const listRoot = document.getElementById('movie-list');
+const entryTextSection = document.getElementById('entry-text');
+const movieModal = document.getElementById('delete-modal');
+const movie = [];
