@@ -33,7 +33,6 @@ const startDeleteMovieHandler =(movieId)=>{
     cancelAddMovieModal.removeEventListener('click',closeMovieDeleteModal);
     cancelAddMovieModal.addEventListener('click',closeMovieDeleteModal);
     confrimMovieButton.addEventListener('click',deleteMovie.bind(null,movieId));
-
     
 }
 const toggleBackDrop = ()=>{

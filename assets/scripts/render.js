@@ -7,4 +7,4 @@ const confrimMovieButton = cancelAddMovieModal.nextElementSibling;
 const listRoot = document.getElementById('movie-list');
 const entryTextSection = document.getElementById('entry-text');
 const movieModal = document.getElementById('delete-modal');
-const movie = [];
+const movie =[];
